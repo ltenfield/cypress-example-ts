@@ -8,7 +8,7 @@
 - Has implicit assertions to provide more meaningful debug experience with less brittle tests
 - Provides the ability to mock out and observe backend XHRs easily without changing your application code
 
-Here is a [demo video](https://youtu.be/ZGEeve8MQiE) (7 minutes) showing basic cypress testing with google search verifying if search word is an adjactive. The github repository is [here]().
+Here is a [demo video](https://youtu.be/ZGEeve8MQiE) (7 minutes) showing basic cypress testing with google search verifying if search word is an adjactive. The github repository is [here](https://github.com/ltenfield/cypress-example-ts).
 
 It also supports many browsers like **Microsoft Edge**, **Firefox** and **Chrome** but not **Safari**
 
