@@ -17,3 +17,36 @@ Many browsers such as Safari and Internet Explorer are not currently supported. 
 
 ## Installation
 Installation is well explained [here](https://basarat.gitbook.io/typescript/intro-1/cypress#installation), along with a youtube tutorial found within basarat's youtube channel with a video entitled [Quickly get started with Cypress E2E testing using TypeScript](https://www.youtube.com/watch?v=n3SvvZSWwfM)
+
+## Running the test from launch window
+1. Install `node` or `nvm` node version manager
+2. Install node modules within root directory of this project
+```sh
+$ npm install
+```
+3. Launch cycpress in development mode
+```sh
+$ npx cypress open
+```
+Then you get an **Electron** launch window and you *double* click on the hilighted test file named `basic.ts`within the `basicSet` folder. Then the browser window opens and the test starts.
+![cypress-launch-window](docs/images/cypress-launch-window.png)
+
+## Running the tests headless
+
+```sh
+$ npx cypress run
+```
+(Run Starting)
+
+| | |
+| - | - |
+|Cypress: | 6.6.0 |
+| Browser: | Electron 87 (headless) |
+| Specs: | 1 found (basicSet/basic.ts |
+
+  Running:  basicSet/basic.ts (1 of 20)
+
+  - google search for agile (2714ms)
+  - google search for proficient (2161ms)
+
+  2 passing (6s)
