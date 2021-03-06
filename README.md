@@ -50,3 +50,44 @@ $ npx cypress run
   - google search for proficient (2161ms)
 
   2 passing (6s)
+
+  ## Cypress info
+
+```sh
+▶ npx cypress info
+Displaying Cypress info...
+
+Detected 2 browsers installed:
+
+1. Chrome
+  - Name: chrome
+  - Channel: stable
+  - Version: 88.0.4324.192
+  - Executable: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  - Profile: /Users/lawrence.turcotte/Library/Application Support/Cypress/cy/production/browsers/chrome-stable
+
+2. Firefox
+  - Name: firefox
+  - Channel: stable
+  - Version: 83.0
+  - Executable: /Applications/Firefox.app/Contents/MacOS/firefox-bin
+
+Note: to run these browsers, pass <name>:<channel> to the '--browser' field
+
+Examples:
+- cypress run --browser chrome
+- cypress run --browser firefox
+
+Learn More: https://on.cypress.io/launching-browsers
+
+Proxy Settings: none detected
+Environment Variables: none detected
+
+Application Data: /Users/lawrence.turcotte/Library/Application Support/cypress/cy/development
+Browser Profiles: /Users/lawrence.turcotte/Library/Application Support/cypress/cy/development/browsers
+Binary Caches: /Users/lawrence.turcotte/Library/Caches/Cypress
+
+Cypress Version: 6.6.0
+System Platform: darwin (19.6.0)
+System Memory: 34.4 GB free 700 MB
+```
