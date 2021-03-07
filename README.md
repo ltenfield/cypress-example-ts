@@ -15,7 +15,7 @@ Here is a detailed comparison of **selenium** and **cypress** by [*Gil Tayar*](h
 [![Cypress vs Selenium WebDriver - Better, Or Just Different? - w/ Gil Tayar](http://img.youtube.com/vi/D7vxFuwnUio/0.jpg)](http://www.youtube.com/watch?v=D7vxFuwnUio)
 
 ## Limitations and Caveats
-- Cypress supports some browsers like **Microsoft Edge**, **Firefox** and **Chrome** but the original implmentation is targeted for **Chrome**, that is **Firefox** most likely will not have the stability that **Chrome** offers. 
+- Cypress supports some browsers like **Microsoft Edge**, **Firefox** and **Chrome** but the original implementation is targeted for **Chrome**, that is **Firefox** most likely will not have the stability that **Chrome** offers. 
 - Many browsers such as Safari and Internet Explorer are not currently supported. Support for more browsers is on our roadmap. You can read an explanation about our future cross browser roadmap [here](https://github.com/cypress-io/cypress/issues/310).
 - A paid tier and possibly a web proxy will needed to run headless parrallel sessions. The web proxy is needed to make QA and staging visible from the internet.
 - Within the paid tier the *Sprout* tier with 25,000 test recordings would be the minimum since 500 recording of the free tier will quickly be exceeded since you need a recording for every test run.  
