@@ -22,6 +22,12 @@ Here is a detailed comparison of **selenium** and **cypress** by [*Gil Tayar*](h
 - Also there can be no nested iframes or seperate browser tabs.
 - You can see limitations and trade-offs [here](https://docs.cypress.io/guides/references/trade-offs.html#Permanent-trade-offs-1).
 
+## Cypress empty project
+
+Here is a github repo created by the cypress team that that includes jest, typescript with proper types for code completion and a travisCI yaml build script.
+
+[https://github.com/cypress-io/cypress-and-jest-typescript-example](https://github.com/cypress-io/cypress-and-jest-typescript-example)
+
 ## Installation
 Installation is well explained [here](https://basarat.gitbook.io/typescript/intro-1/cypress#installation), along with a youtube tutorial found within basarat's youtube channel with a video entitled [Quickly get started with Cypress E2E testing using TypeScript](https://www.youtube.com/watch?v=n3SvvZSWwfM)
 
